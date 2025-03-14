@@ -58,3 +58,24 @@ console.log(ninthvar); //1010880
 
 let tenthvar = ninthvar *5;
 console.log(tenthvar); //5054400
+
+// ==== Primitive Data types  ====
+
+// 1 string = text value 
+// 2 number = numerica value
+// 3 Boolean =  either true or false depends on condion
+// 4 Undefined = whether it is not defined or not been assigned by a value 
+// 5 null  = empty value
+
+//  Some rules for variable declaring 
+
+// 1- It can start with number, special character E.g 123myName it can be letters , numbers, $ sign and underscores
+// 2- There should be no space between two words E.g ny Name
+// 3- Varible can only cantain letters , numbers, $ sign and underscores
+
+// ==== TYPE ANNOTATIONS ON VARIABLE  ====
+//  same as varible declaaring 
+
+let hello2: string = "Moiz" // if we write a number here E.g 2 error ocurs we cannot type the number if we declare the type of string same goals for number too
+
+
