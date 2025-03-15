@@ -1,5 +1,7 @@
 //  01 Template literls ( ` `) ;
 // A new and fast way to deal with strings
+
+
 let userName : string = "John doe" ; 
 console.log(userName + "emailId"); // normal way to cocat but it fails when you are solving large problems
 
@@ -85,3 +87,27 @@ console.log(graeter_Or_equal); // true why 30 is graeter  to 10
 let lower_Or_Equal :boolean = firstCompare < secondCompare
 console.log(lower_Or_Equal); // False why 30 is not lower than 10
 
+// c) Logical Operator
+
+let logicCompare1 :number = 13;
+let logicCompare2 :number = 7;
+let logicCompare3 :number = 9;
+let logicCompare4 :number = 13;
+
+// I) And Operator (&&)
+// And operator will be true when both sides results true 
+
+let and : boolean = logicCompare1 === logicCompare4 && logicCompare3 === logicCompare2
+console.log(and); // false one side is false and one is true 
+
+let and2 : boolean = 13 === 13 && 7 === 7
+console.log(and2); // true both sides are true 
+
+// I) OR Operator (||)
+// OR operator will be true when only when or more the one  sides results true 
+
+let or : boolean = logicCompare1 === logicCompare4 && logicCompare3 === logicCompare2
+console.log(or); // true one side is equal and one is false 
+
+let or2 : boolean = 11 === 11 && 2 === 2
+console.log(or2); // true both sides are true 
