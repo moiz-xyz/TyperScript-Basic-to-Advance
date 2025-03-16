@@ -1,0 +1,19 @@
+Problem no 1
+Write a program to calculates the area of triangle
+
+Problem no 2 
+Write a program that calculates the volume of a cube
+
+Problem no 3 
+Write a program that checks if a given number is positive , negative . zero
+
+Problem no 4
+Write a program that checks if a given number is even or odd
+
+Problem no 5 
+Write a program that determines if the person is eligible to vote or not
+
+Problem no 6
+Write a program that calculates the result of mathematical expersion 
+( (10+5) * 3-2 / (4 % 3) -7 )
+
