@@ -90,6 +90,7 @@ if (age_of_person < 18){
     console.log(`You are not eligible for the casting of vote`);
 }
 
+
 // Number 6 
 let expression : number = ( (10+5) * 3-2 / (4 % 3) -7 );
 console.log(expression); // 36
