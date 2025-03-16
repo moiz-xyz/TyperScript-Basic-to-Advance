@@ -87,7 +87,7 @@ switch (section) {
   case "D":
     console.log("Your timing is Tuesday , Thursday , Saturday 6-8");
     break;
-
   default:
+    console.log("Innvalid section");
     break;
 }
