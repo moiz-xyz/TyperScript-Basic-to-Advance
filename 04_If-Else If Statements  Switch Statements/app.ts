@@ -32,7 +32,6 @@ if (percentage > 90) {
 }
 
 //  Switch statemnents == same as if else satemnets used to check condtion using cases
-
 switch (expression) {
   case 1:
     // Code to execute if expression === value1
