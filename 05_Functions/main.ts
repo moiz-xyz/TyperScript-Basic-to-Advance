@@ -18,18 +18,36 @@ greet () // hello
 
 // Arguments are the actual values passed to the function when it is called, which correspond to the defined parameters.
 
-function hellouser (name : string){
+function hellouser (name : string) : string{
     return (`Hello ${name}`)
 }
 console.log( hellouser ("Moiz")  ); // Hello Moiz 
 console.log( hellouser ("Irzam") ); // Hello Irzam
 console.log( hellouser ("Rayyan") ); // Hello Rayyan
+ 
+// WHY WE USED RETURN 
+// In TypeScript, the return statement in functions is used to send a value back to the caller. Here’s why we use it:
+// 1. To Output a Value
+// Functions process data, and return allows us to send the result back.
+// 2. To End Function Execution
+// When return is used, the function stops executing at that point.
 
+
+// Arrow Function (Advance & small way to write function);
+// synatx  
+     ()=>{
+        //  function is to exected here
+           }
+
+let greetByArrow = (usernmae :string) : string =>{
+    return `Hello ${usernmae}`
+}
+console.log(greetByArrow("John")); // Hello John
+ 
 
 // ==== Solutions of Problems ===
-
 // 1
-function sum (num1 :number , num2 : number){
+function sum (num1 :number , num2 : number) {
     let result: number = num1 + num2
     console.log(`The sum of ${num1}, ${num2} is ${result}`);
 }
@@ -53,3 +71,4 @@ function percentageCalculator(obtainedMarks : number , totalMarks : number){
 }
 percentageCalculator(495,550) // The percenatage of 495 & 550 is 90%
 
+//  Arrow functions
