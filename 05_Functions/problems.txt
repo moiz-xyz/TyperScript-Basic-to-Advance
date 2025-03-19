@@ -1,4 +1,3 @@
 Write a programe that calculates the sum of two numbers 
 Write a programe that converts the temp from celsius to fahrenheit 
 Write a programe that calculates the percentage of numbers
-Write a function that reverses a string.
