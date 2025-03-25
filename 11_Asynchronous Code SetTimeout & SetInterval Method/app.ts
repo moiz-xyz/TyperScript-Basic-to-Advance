@@ -22,4 +22,22 @@ for (let i = 0 ; i < 10 ;i++ ){
 let sayhello = async (sayhello:string) => {
     return (`Hello, ${sayhello }`)
 }
-console.log( sayhello ('Moiz') ); // 
+console.log( sayhello ('Moiz') );
+
+// Set timout is bulit in Asynchronous FUNCION IN TS 
+
+console.log("Hello before set time out");
+
+let helllo = ()=>{
+    console.log(`Hello World`);
+}
+setTimeout(helllo, 3000) // Hello worls after 3 sec
+
+console.log("Hello after set time out");
+
+// setInterval is another which repects the code for particular times
+
+setInterval(() => {
+    console.log("Hello interavl");
+    
+}, 1000);
